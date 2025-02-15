@@ -27,17 +27,12 @@ DB_NAME=kanban
 npm install
 ```
 
-### 3. Initialize Knex
-```sh
-npx knex init
-```
-
-### 4. Run migrations
+### 3. Run migrations
 ```sh
 npx knex migrate:latest
 ```
 
-### 5. Start the development server
+### 4. Start the development server
 ```sh
 npm run dev
 ```
